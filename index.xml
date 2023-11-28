@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Team name</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/</link><atom:link href="https://ckids-datafest.github.io/2023-fall-paleoclimate/index.xml" rel="self" type="application/rss+xml"/><description>Team name</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://ckids-datafest.github.io/2023-fall-paleoclimate/media/icon_hu5486d42984c30aaff6be99d37062b147_3155_512x512_fill_lanczos_center_3.png</url><title>Team name</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/</link></image><item><title>People</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/people/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/people/</guid><description/></item><item><title>Approach</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/approach/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/approach/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on the data science methodology used to approach the problem. It should be no more than 3 pages long. It should be done after or in combination with the Requirements document. It should have an initial release after no more than eight weeks into the project, and can serve as an interim project report. It can be refined as the project progresses and the problem is better understood.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Team name</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/</link><atom:link href="https://ckids-datafest.github.io/2023-fall-paleoclimate/index.xml" rel="self" type="application/rss+xml"/><description>Team name</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://ckids-datafest.github.io/2023-fall-paleoclimate/media/icon_hu5486d42984c30aaff6be99d37062b147_3155_512x512_fill_lanczos_center_3.png</url><title>Team name</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/</link></image><item><title>People</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/people/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/people/</guid><description/></item><item><title>Approach</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/approach/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/approach/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on the data science methodology used to approach the problem. It should be no more than 3 pages long. It should be done after or in combination with the Requirements document. It should have an initial release after no more than eight weeks into the project, and can serve as an interim project report. It can be refined as the project progresses and the problem is better understood.&lt;/p>
 &lt;h2 id="data-quality">Data Quality&lt;/h2>
 &lt;p>Describe any steps that were used to address any issues concerning the quality of the data. This may include collecting data quality metrics, discarding subsets of the data, or applying specific techniques for handling missing values, dealing with outliers, etc.&lt;/p>
 &lt;h2 id="data-preprocessing">Data Preprocessing&lt;/h2>
@@ -19,20 +19,137 @@
 &lt;h2 id="data-challenges">Data Challenges&lt;/h2>
 &lt;p>Summarize why analyzing this data will be challenging. This may include issues like data heterogeneity, data size, and any pre- or post-processing needs. Explain some ideas for how these challenges could be addressed.&lt;/p>
 &lt;h2 id="data-visualizations-and-highlights">Data Visualizations and Highlights&lt;/h2>
-&lt;p>Including a visualization is a simple way to show something interesting about the data. Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.&lt;/p></description></item><item><title>Problem and Requirements</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/problem-statement/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/problem-statement/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>This page serves as a &lt;strong>Problem and Requirements Document&lt;/strong> for the project. It should be no more than 5 pages long. It should be done after or in combination with the Data Assessment document. It should have an initial release after no more than four weeks into the project, and can serve as an interim project report. It can be refined as the project progresses and the project is better understood.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
-&lt;p>The project advisor should have provided the general context for the project, the kinds of problems that could be addressed using the data available, and the overall motivation for working in this area.&lt;/p>
-&lt;h2 id="problem-for-the-semester">Problem for the Semester&lt;/h2>
-&lt;p>While the motivation section typically describes the long-term reasons to tackle this project, the problem section should focus on the specific problem and goals selected for the current semester. It should be a realistic goal that can be accomplished with the resources available, and this typically means the data, the people, the time available. It is useful to be specific about the initial questions that will be addressed first, because those typically lead to a better understanding of what other questions could be tackled. This will help establish a clear scope for the project that will give everyone reasonable confidence of what the team can achieve. It is also very useful to describe what the team is not going to tackle and has agreed to leave for future work.&lt;/p>
-&lt;h2 id="state-of-the-art">State of the Art&lt;/h2>
-&lt;p>Provide a brief summary or survey of the possible approaches, advances, or tools that are currently available that could potentially be used to address the problem.&lt;/p>
-&lt;h2 id="design-and-approach">Design and Approach&lt;/h2>
-&lt;p>Discuss the initial approach that the team will follow. This may include the key idea that the team believes could potentially work, and a high-level description of 1) the system to be built and a diagram of its components, 2) the inputs to the system and the task that it will do with that data, and 3) the outputs to be generated. Discuss also a baseline system that is simple and can be quickly built to address the problem in a reasonable way even if it has poor performance, so that you can clearly show improvements. Discuss also how those improvements will be demonstrated through metrics or other means.&lt;/p>
+&lt;p>Including a visualization is a simple way to show something interesting about the data. Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.&lt;/p></description></item><item><title>Problem and Requirements</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/problem-statement/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/problem-statement/</guid><description>&lt;h2 id="target-for-the-semester">Target for the Semester&lt;/h2>
+&lt;ol>
+&lt;li>Outlier detection:
+&lt;ul>
+&lt;li>KNN: This issue aims to explore how KNN works for timeseries data especially on paleoclimate data. Moreover, we also implement automate auto-tuning of the parameters using the silhouette method to heuristically determine all parameters&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Visualization
+&lt;ul>
+&lt;li>SciencePlots: API for developing standardized plot styles using MatPlotLib (plots for IEEE, science, nature articles)&lt;/li>
+&lt;li>BoxPlots: This issue contends with the use pandas and Plotly to represent change in paleoclimatic data over the course of decades through the use of box plots to measure change in Southern Oscillation Index value&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Fluctuation Analysis
+&lt;ul>
+&lt;li>HAAR: Current Pyleoclim Time Series analysis are effective yet costly due to our data’s characteristics. Haar Analysis improves the efficiency, forecasting quality, and particularly useful for data compression and denoising applications. Implement a working Haar Fluctuation Analysis Method for our data based on previous research algorithms created for similar data.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="approach">Approach&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Outlier detection&lt;/p>
+&lt;ul>
+&lt;li>KNN on anomaly detection:
+&lt;ul>
+&lt;li>For KNN on anomaly detection, it involves identifying data points that deviate significantly from the majority of the data&lt;/li>
+&lt;li>KNN: Leveraging sklearn LocalOutlierFactor() function&lt;/li>
+&lt;li>Silhouette method: A metric used to assess the quality of clustering, we’re using it to evaluate the performance of models&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Visualization&lt;/p>
+&lt;ul>
+&lt;li>SciencePlots Functionality:
+&lt;ul>
+&lt;li>Generate notebook with Pyleoclim/SciencePlot plot comparisons (IP)&lt;/li>
+&lt;li>Add SciencePlots into Pyelo dependencies and environment (IP)&lt;/li>
+&lt;li>Append new SciencePlot styles to Pyleo Plot.py file&lt;/li>
+&lt;li>Create Unit Test to ensure smooth integration of Scienceplots&lt;/li>
+&lt;li>Develop Scienceplots PyleoTutorial&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Box plots for Time Series Data
+&lt;ul>
+&lt;li>Use .astype function of pandas to group points from the same year into one dataset&lt;/li>
+&lt;li>Generate boxplot using Plotly to juxtapose each year’s data and measure annual changes in the Southern Oscillation Index value&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Fluctuation Analysis&lt;/p>
+&lt;ul>
+&lt;li>Haar Fluctuation Analysis:
+&lt;ul>
+&lt;li>Determine notation and good defaults values for our method&lt;/li>
+&lt;li>Incorporate haar_v2 in Pyleoclim as a method of the Series class&lt;/li>
+&lt;li>Use this method to reproduce a findings similar to past research on some of Pyleoclim’s pre-defined timeseries&lt;/li>
+&lt;li>Figure out a good unit test for this method&lt;/li>
+&lt;li>Implement it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
 &lt;h2 id="use-case-scenario">Use Case Scenario&lt;/h2>
-&lt;p>Show with a use case scenario with examples of who the ultimate users could be, what the system that you plan to build for the semester will do in that scenario. Provide a mockup of the outputs for the use case that you propose.&lt;/p>
-&lt;h2 id="desired-outcomes-and-benefits">Desired Outcomes and Benefits&lt;/h2>
-&lt;p>Connect back the system that you will be building with the initial motivation for the work, and what additional future work might be needed in order for the system to provide benefits to its users.&lt;/p></description></item><item><title>Results</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on results to date. It should be no more than 2 pages long. An initial draft can be created at any point during the project, and can be refined as the project progresses.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>KNN on anomaly detection
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="KNN" srcset="
+/2023-fall-paleoclimate/media/KNN_hu2a94a172e575f39ce12d33e749069ccd_865902_f67c2a637ebcf85c6a8c5407563585ee.webp 400w,
+/2023-fall-paleoclimate/media/KNN_hu2a94a172e575f39ce12d33e749069ccd_865902_ed34850942459afbf83fa119ba7ba1ec.webp 760w,
+/2023-fall-paleoclimate/media/KNN_hu2a94a172e575f39ce12d33e749069ccd_865902_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://ckids-datafest.github.io/2023-fall-paleoclimate/2023-fall-paleoclimate/media/KNN_hu2a94a172e575f39ce12d33e749069ccd_865902_f67c2a637ebcf85c6a8c5407563585ee.webp"
+width="760"
+height="453"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>SciencePlots Functionality
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="SciencePlot" srcset="
+/2023-fall-paleoclimate/media/SciencePlot_hue53c0585a3656a7802f55921389acd46_558748_70bc530524defbfd9db5e5fdacb88de8.webp 400w,
+/2023-fall-paleoclimate/media/SciencePlot_hue53c0585a3656a7802f55921389acd46_558748_37519a784d7e7e6d18c5f3d962ea48c4.webp 760w,
+/2023-fall-paleoclimate/media/SciencePlot_hue53c0585a3656a7802f55921389acd46_558748_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://ckids-datafest.github.io/2023-fall-paleoclimate/2023-fall-paleoclimate/media/SciencePlot_hue53c0585a3656a7802f55921389acd46_558748_70bc530524defbfd9db5e5fdacb88de8.webp"
+width="760"
+height="723"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Box plots for Time Series Data
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="BoxPlot" srcset="
+/2023-fall-paleoclimate/media/BoxPlot_hud35fdf79162f97069444f0044661fe9e_309527_7f40dc3ec8ecb8fd5fa9b359cb20ec0c.webp 400w,
+/2023-fall-paleoclimate/media/BoxPlot_hud35fdf79162f97069444f0044661fe9e_309527_87d3f2493c2783fc8e2d4db500dd78fb.webp 760w,
+/2023-fall-paleoclimate/media/BoxPlot_hud35fdf79162f97069444f0044661fe9e_309527_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://ckids-datafest.github.io/2023-fall-paleoclimate/2023-fall-paleoclimate/media/BoxPlot_hud35fdf79162f97069444f0044661fe9e_309527_7f40dc3ec8ecb8fd5fa9b359cb20ec0c.webp"
+width="760"
+height="339"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fluctuation Analysis
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="HAAR" srcset="
+/2023-fall-paleoclimate/media/HAAR_hue509a8f43b728e8b7604955ed9a83e23_152515_38d1e155267b6ecd77725f26d40eea45.webp 400w,
+/2023-fall-paleoclimate/media/HAAR_hue509a8f43b728e8b7604955ed9a83e23_152515_249e8a6171a2267abc41deb6e687786d.webp 760w,
+/2023-fall-paleoclimate/media/HAAR_hue509a8f43b728e8b7604955ed9a83e23_152515_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://ckids-datafest.github.io/2023-fall-paleoclimate/2023-fall-paleoclimate/media/HAAR_hue509a8f43b728e8b7604955ed9a83e23_152515_38d1e155267b6ecd77725f26d40eea45.webp"
+width="760"
+height="547"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Results</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on results to date. It should be no more than 2 pages long. An initial draft can be created at any point during the project, and can be refined as the project progresses.&lt;/p>
 &lt;h2 id="system-and-model-performance">System and Model Performance&lt;/h2>
 &lt;p>Show the performance of the best system and model(s) developed, showing clearly the performance metrics and improvements over the baseline system as appropriate. Create visualizations that show clearly these results.&lt;/p>
 &lt;h2 id="discussion-of-findings">Discussion of Findings&lt;/h2>
