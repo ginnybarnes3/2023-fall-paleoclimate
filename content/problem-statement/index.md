@@ -6,30 +6,53 @@ editable: true
 share: false
 ---
 
-## Introduction
+## Target for the Semester
 
-This page serves as a **Problem and Requirements Document** for the project.  It should be no more than 5 pages long.  It should be done after or in combination with the Data Assessment document.  It should have an initial release after no more than four weeks into the project, and can serve as an interim project report.  It can be refined as the project progresses and the project is better understood.  
+1. Outlier detection: 
+    - KNN: This issue aims to explore how KNN works for timeseries data especially on paleoclimate data. Moreover, we also implement automate auto-tuning of the parameters using the silhouette method to heuristically determine all parameters
+2. Visualization
+    - SciencePlots: API for developing standardized plot styles using MatPlotLib (plots for IEEE, science, nature articles)
+    - BoxPlots: This issue contends with the use pandas and Plotly to represent change in paleoclimatic data over the course of decades through the use of box plots to measure change in Southern Oscillation Index value
+3. Fluctuation Analysis
+    - HAAR: Current Pyleoclim Time Series analysis are effective yet costly due to our data’s characteristics. Haar Analysis improves the efficiency, forecasting quality, and particularly useful for data compression and denoising applications. Implement a working Haar Fluctuation Analysis Method for our data based on previous research algorithms created for similar data.
 
-## Motivation
+## Approach
 
-The project advisor should have provided the general context for the project, the kinds of problems that could be addressed using the data available, and the overall motivation for working in this area.  
+1. Outlier detection
+    - KNN on anomaly detection:
+        - For KNN on anomaly detection, it involves identifying data points that deviate significantly from the majority of the data
+        - KNN: Leveraging sklearn LocalOutlierFactor() function
+        - Silhouette method: A metric used to assess the quality of clustering, we’re using it to evaluate the performance of models
+ 
+2. Visualization
+    - SciencePlots Functionality: 
+        - Generate notebook with Pyleoclim/SciencePlot plot comparisons (IP)
+        - Add SciencePlots into Pyelo dependencies and environment (IP)
+        - Append new SciencePlot styles to Pyleo Plot.py file
+        - Create Unit Test to ensure smooth integration of Scienceplots
+        - Develop Scienceplots PyleoTutorial
+    - Box plots for Time Series Data
+        - Use .astype function of pandas to group points from the same year into one dataset
+        - Generate boxplot using Plotly to juxtapose each year’s data and measure annual changes in the Southern Oscillation Index value
 
-## Problem for the Semester
-
-While the motivation section typically describes the long-term reasons to tackle this project, the problem section should focus on the specific problem and goals selected for the current semester.  It should be a realistic goal that can be accomplished with the resources available, and this typically means the data, the people, the time available.  It is useful to be specific about the initial questions that will be addressed first, because those typically lead to a better understanding of what other questions could be tackled.  This will help establish a clear scope for the project that will give everyone reasonable confidence of what the team can achieve.  It is also very useful to describe what the team is not going to tackle and has agreed to leave for future work.
-
-## State of the Art
-
-Provide a brief summary or survey of the possible approaches, advances, or tools that are currently available that could potentially be used to address the problem.  
-
-## Design and Approach
-
-Discuss the initial approach that the team will follow.  This may include the key idea that the team believes could potentially work, and a high-level description of 1) the system to be built and a diagram of its components, 2) the inputs to the system and the task that it will do with that data, and 3) the outputs to be generated. Discuss also a baseline system that is simple and can be quickly built to address the problem in a reasonable way even if it has poor performance, so that you can clearly show improvements.  Discuss also how those improvements will be demonstrated through metrics or other means.
+3. Fluctuation Analysis
+    - Haar Fluctuation Analysis:
+        - Determine notation and good defaults values for our method
+        - Incorporate haar_v2 in Pyleoclim as a method of the Series class
+        - Use this method to reproduce a findings similar to past research  on some of Pyleoclim’s pre-defined timeseries
+        - Figure out a good unit test for this method
+        - Implement it
 
 ## Use Case Scenario
 
-Show with a use case scenario with examples of who the ultimate users could be, what the system that you plan to build for the semester will do in that scenario.  Provide a mockup of the outputs for the use case that you propose.
+- KNN on anomaly detection
+![KNN](KNN.png)
 
-## Desired Outcomes and Benefits
+- SciencePlots Functionality
+![SciencePlot](SciencePlot.png)
 
-Connect back the system that you will be building with the initial motivation for the work, and what additional future work might be needed in order for the system to provide benefits to its users.
+- Box plots for Time Series Data
+![BoxPlot](BoxPlot.png)
+
+- Fluctuation Analysis
+![HAAR](HAAR.png)

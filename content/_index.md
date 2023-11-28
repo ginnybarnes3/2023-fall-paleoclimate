@@ -1,22 +1,20 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-10-24
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        The title of your CDISK project
+        Pyleoclim: A Python Package for the Analysis of Paleoclimate Data
       image:
-        filename: welcome.jpg
+        filename: pyleoclim_logo_full_white.png
       text: |
-        This [Fall 2023](https://ckids-datafirst.github.io/website/editions/2023-fall/#dates) [DataFirst project](https://ckids-datafirst.github.io/website/) addressed the problem of [1-sentence problem statement](problem-statement). It uses data about [1-sentence data description](data). Our work focuses on [1-sentence description of approach](approach). Our initial results indicate [1-sentence summary of results](results).
+        Pyleoclim is an object-oriented Python package for analyzing and visualizing time-series paleoclimate data, which offer unique challenges to the analyst, as they usually come in the form of timeseries with missing values and age uncertainties. 
 
-        Optional: This project builds on the work of a [previous DataFirst project|link to another project from a previous semester].
-
-        Our data science project endeavors to tackle [problem statement]. Our motivation to address this problem stems from [explain the motivation behind the project, e.g., its potential to improve lives, contribute to a specific field, or drive innovation].
+        This [Fall 2023](https://ckids-datafirst.github.io/website/editions/2023-fall/#dates) [Pyleoclim](https://github.com/LinkedEarth/Pyleoclim_util) worked on a several expansion of functionalities: outlier detection, visualization, and fluctuation analysis. Specifically, our work focuses on the implementation of outlier detection using KNN, SciencePlot styles, boxplot visualization, and Haar fluctuation analysis.
 
     design:
       columns: "1"
