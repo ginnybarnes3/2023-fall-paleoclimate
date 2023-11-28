@@ -2,15 +2,15 @@
 bio: "I'm an advisor"
 education:
   courses:
-    - course: PhD in Computer Science
-      institution: University of Southern California
+    - course: PhD in Earth & Environmental Sciences
+      institution: Columbia University
+      year: 2001
+    - course: MS in Geosciences
+      institution: Ecole Normale Superieure
       year: 2000
-    - course: MS in Computer Science
-      institution: University of Southern California
-      year: 1996
-    - course: BS in Computer Science
-      institution: University of Southern California
-      year: 1994
+    - course: BS in Geosciences
+      institution: Ecole Normale Superieure
+      year: 1998
 email: fake-email@isi.edu
 first_name: Julien
 last_name: Emile-Geay

@@ -2,15 +2,15 @@
 bio: "I'm an advisor"
 education:
   courses:
-    - course: PhD in Computer Science
+    - course: PhD in Earth Sciences
       institution: University of Southern California
-      year: 2000
-    - course: MS in Computer Science
+      year: 2006
+    - course: BS in Civil and Environmental Engineering
       institution: University of Southern California
-      year: 1996
-    - course: BS in Computer Science
-      institution: University of Southern California
-      year: 1994
+      year: 2004
+    - course: BS in Oceanography/Applied Mathematics
+      institution: Hawaii Pacific University
+      year: 2001
 email: fake-email@isi.edu
 first_name: Deborah
 last_name: Khider
