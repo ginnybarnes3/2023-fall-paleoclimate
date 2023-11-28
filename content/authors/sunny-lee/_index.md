@@ -1,18 +1,18 @@
 ---
-bio: "I'm a student"
+bio: "Student from MSCS'25 at USC"
 education:
   courses:
-    - course: BS in Computer Science
+    - course: MS in Computer Science
       institution: University of Southern California
-      year: 2015
-email: fakeemail@isi.edu
-first_name: Buffy
-last_name: Summers
+      year: 2023
+email: pintzule@usc.edu
+first_name: Sunny
+last_name: Lee
 organizations:
   - name: University of Southern California
     url: "https://www.usc.edu/"
 role: Student
-title: Buffy Summers
+title: Sunny Lee
 user_groups:
   - Students
 ---

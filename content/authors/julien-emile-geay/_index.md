@@ -12,13 +12,13 @@ education:
       institution: University of Southern California
       year: 1994
 email: fake-email@isi.edu
-first_name: Rupert
-last_name: Giles
+first_name: Julien
+last_name: Emile-Geay
 organizations:
   - name: University of Southern California
     url: https://www.usc.edu/
 role: Advisor
-title: Rupert Giles
+title: Julien Emile-Geay
 user_groups:
   - Advisors
 ---
