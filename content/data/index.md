@@ -9,25 +9,23 @@ share: false
 
 ## Introduction
 
-This page serves as a Data Assessment Document for the project.  It should be no more than 2-3 pages long.  It can be drafted in the first two weeks of the project, and can serve as an interim project report.  It can be refined as the project progresses and the use of the data is better understood.  
+When implementing functionalities, we make use of several timeseries datasets, specifically paleoclimate datasets for testing.
 
 ## Data Overview and Examples
 
-Give a brief description of the data provided for this project, what it represents, how it was collected, and why it may help address the problem you are tackling.  Discuss if you will be using all the data or only some subset of it for the project.  Consider possible additional data that may be publicly available in the open Web that might complement the data that you are given.
+This is an example of a paleoclimate dataset (MD982181.Khider.2014):
+![dataset_example](dataset_example.png)
 
 ## Data Accessibility
 
-Summarize how the data can be accessed. For example, data may be available for download in files, or accessible through an API, or can be queried from a database.  Mention any restrictions in accessing the data, for example if it is sensitive data that can only accessed with special permission.
+We leverage the Linked Paleo Data ([LiPD](https://cp.copernicus.org/articles/12/1093/2016/)) standard container and its associated utilities as the source of datasets.
+
+Also, more datasets could be found in the pyeloclim repo [example_data folder](https://github.com/LinkedEarth/Pyleoclim_util/tree/d1462f45132496b2453c32a6133fd3938c4f84b0/example_data).
 
 ## Data Formats
 
-Describe briefly the formats of the data.  Common data formats include CSV, JSON, XML, shapefiles, or any other specific formats relevant to your website.
+Paleoclimate data could be in multiple formats, LiPD (.lpd) is not an obligatory entry point to Pyleoclim, low-level modules work on NumPy **arrays** or Pandas **dataframes**, so most Pyleoclim timeseries analysis functionalities can apply to these more common types as well.
 
 ## Data Challenges
 
-Summarize why analyzing this data will be challenging. This may include issues like data heterogeneity, data size, and any pre- or post-processing needs. Explain some ideas for how these challenges could be addressed.
-
-## Data Visualizations and Highlights
-
-Including a visualization is a simple way to show something interesting about the data.  Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.
-
+Paleoclimate data, whether from observations or model simulations, offer unique challenges to the analyst, as they usually come in the form of timeseries with missing values and age uncertainties, which trip up off-the-shelf methods.

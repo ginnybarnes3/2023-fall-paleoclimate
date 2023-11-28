@@ -5,6 +5,9 @@ education:
     - course: MS in Computer Science
       institution: University of Southern California
       year: 2023
+    - course: BS in Computer Science
+      institution: National Yang Ming Chiao Tung University
+      year: 2019
 email: pintzule@usc.edu
 first_name: Sunny
 last_name: Lee
