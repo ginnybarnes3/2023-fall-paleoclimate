@@ -6,13 +6,13 @@ education:
       institution: University of Southern California
       year: 2023
 email: fakeemail@isi.edu
-first_name: first
-last_name: last
+first_name: Ginny
+last_name: Barnes
 organizations:
   - name: University of Southern California
     url: "https://www.usc.edu/"
 role: Student
-title: fake name
+title: Ginny Barnes
 user_groups:
   - Students
 ---

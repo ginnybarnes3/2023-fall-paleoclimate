@@ -6,13 +6,13 @@ education:
       institution: University of Southern California
       year: 2023
 email: fakeemail@isi.edu
-first_name: first
-last_name: last
+first_name: Harman
+last_name: Pelia
 organizations:
   - name: University of Southern California
     url: "https://www.usc.edu/"
 role: Student
-title: fake name
+title: Harman Pelia
 user_groups:
   - Students
 ---
