@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pyleoclim</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/</link><atom:link href="https://ckids-datafest.github.io/2023-fall-paleoclimate/index.xml" rel="self" type="application/rss+xml"/><description>Pyleoclim</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://ckids-datafest.github.io/2023-fall-paleoclimate/media/icon_hu5486d42984c30aaff6be99d37062b147_3155_512x512_fill_lanczos_center_3.png</url><title>Pyleoclim</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/</link></image><item><title>People</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/people/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/people/</guid><description/></item><item><title>Approach</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/approach/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/approach/</guid><description>&lt;h2 id="outlier-detection">Outlier detection&lt;/h2>
+&lt;p>Before implementing KNN into Pyleoclim, we first did some &lt;a href="https://github.com/KnowledgeCaptureAndDiscovery/autoTS/blob/master/notebooks/Methods/Outlier/LOF.ipynb" target="_blank" rel="noopener">test&lt;/a> on how KNN works for outlier detection. The tests includes using KNN outlier detection on several different datasets and exploring parameters of it:&lt;/p>
+&lt;ol>
+&lt;li>Synthetic dataset&lt;/li>
+&lt;li>Real-world dataset&lt;/li>
+&lt;li>Explore KNN parameters&lt;/li>
+&lt;li>Timeseries dataset&lt;/li>
+&lt;li>Paleoclimate series&lt;/li>
+&lt;/ol>
+&lt;p>Next, we try simulating the new functionality in a separate &lt;a href="https://github.com/KnowledgeCaptureAndDiscovery/autoTS/blob/master/notebooks/Methods/Outlier/LOF_test.ipynb" target="_blank" rel="noopener">notebook&lt;/a> before implemeting into the pyleoclim package.&lt;/p>
+&lt;p>Last, we modify the pyleoclim package, set up tests associated to the new functionalities, and &lt;a href="https://github.com/LinkedEarth/Pyleoclim_util/commit/512c92d619ac692b2209f4a600c681db45e1a99e" target="_blank" rel="noopener">merge&lt;/a> the changes to the main branch.&lt;/p>
 &lt;h2 id="visualization">Visualization&lt;/h2>
 &lt;h3 id="scienceplot">SciencePlot&lt;/h3>
 &lt;h3 id="boxplot">BoxPlot&lt;/h3>
@@ -154,12 +164,29 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Results</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on results to date. It should be no more than 2 pages long. An initial draft can be created at any point during the project, and can be refined as the project progresses.&lt;/p>
-&lt;h2 id="system-and-model-performance">System and Model Performance&lt;/h2>
-&lt;p>Show the performance of the best system and model(s) developed, showing clearly the performance metrics and improvements over the baseline system as appropriate. Create visualizations that show clearly these results.&lt;/p>
-&lt;h2 id="discussion-of-findings">Discussion of Findings&lt;/h2>
-&lt;p>Offer a discussion of the main findings using the system developed. Put the results in the context of the original problem statement and the questions that were posed.&lt;/p>
-&lt;p>Discuss any unexpected results, and potential explanations.&lt;/p>
-&lt;p>Enumerate (ideally in bullets) the most important findings, and their impact on your project goals.&lt;/p>
-&lt;h2 id="limitations-and-future-work">Limitations and Future Work&lt;/h2>
-&lt;p>Discuss any limitations of the work to date, how these limitations could be addressed in future work. Discuss what lines of work are most promising given the understanding of the problem and the data gained throughout the project.&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Results</title><link>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/2023-fall-paleoclimate/results/</guid><description>&lt;h2 id="outlier-detection">Outlier detection&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="LOF_TF" srcset="
+/2023-fall-paleoclimate/media/LOF_TF_hu9db85d7bfcd12bbfbeae8011e80a9082_143291_b3c6400009d05802afa1bb08816aeb6b.webp 400w,
+/2023-fall-paleoclimate/media/LOF_TF_hu9db85d7bfcd12bbfbeae8011e80a9082_143291_2212066de301aa876dd3cde081a48f1f.webp 760w,
+/2023-fall-paleoclimate/media/LOF_TF_hu9db85d7bfcd12bbfbeae8011e80a9082_143291_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://ckids-datafest.github.io/2023-fall-paleoclimate/2023-fall-paleoclimate/media/LOF_TF_hu9db85d7bfcd12bbfbeae8011e80a9082_143291_b3c6400009d05802afa1bb08816aeb6b.webp"
+width="760"
+height="246"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>Added &lt;code>LOF&lt;/code>, &lt;code>n_frac&lt;/code>, &lt;code>contamination&lt;/code> parameters to &lt;code>detect_outliers_kmeans function&lt;/code>&lt;/li>
+&lt;li>Added corresponding outlier parameter tests&lt;/li>
+&lt;li>Updated documentation&lt;/li>
+&lt;li>Test run successfully locally&lt;/li>
+&lt;li>Written tutorial to the new functionality&lt;/li>
+&lt;/ul>
+&lt;h2 id="visualization">Visualization&lt;/h2>
+&lt;h3 id="scienceplot">SciencePlot&lt;/h3>
+&lt;h3 id="boxplot">BoxPlot&lt;/h3>
+&lt;h2 id="fluctuation-analysis">Fluctuation Analysis&lt;/h2>
+&lt;h2 id="limitations-and-future-work">Limitations and Future Work&lt;/h2></description></item></channel></rss>
