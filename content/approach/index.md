@@ -20,6 +20,11 @@ Last, we modify the pyleoclim package, set up tests associated to the new functi
 
 ## Visualization
 ### SciencePlot
+One requested new feature for the Pyleoclim package was the implementation of SciencePlots in the plotting.py file so that plots created with Pyleoclim would fit science, ieee, nature, and notebook publication guidelines. In order to follow the guidelines, certain plot feature need to be set such as trendline colors, font, legend styles and more.
+
+A notebook was created to show the comparison of the previous styles offered in Pyleoclim from matplotlib and the new styles implemented from SciencePlots which cam be found here:
+https://github.com/ginnybarnes3/Pyleoclim_util_Barnes/blob/Barnes_Ginny_SciencePlots/PyleoSciencePlotsImplemented.ipynb
+The file is too large to view on GitHub but the notebook can be downloaded and run on jupyter lab to view the comparisons.
 
 ### BoxPlot
 
